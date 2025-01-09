@@ -16,7 +16,7 @@ public class Menu {
 
     @Id
     @Column(name = "menu_code")
-//    @GeneratedValue(strategy = GenerationType.IDENTITY)
+//    @GeneratedValue(strategy = GenerationType.IDENTITY)               // 이미 만들어진 테이블을 그대로 쓰도록 yml 에 설정했기 때문에 이 코드 작성하면 오류 발생
     private int menuCode;
 
     @Column(name = "menu_name")
